@@ -1,0 +1,183 @@
+/* ====== GLOBAL RESET ====== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth; /* enables smooth scroll for buttons/links */
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  background-color: #fdf6fa;
+  color: #333;
+  padding-bottom: 50px;
+}
+
+h1, h2, h3 {
+  color: #b30059;
+  margin-bottom: 0.5em;
+}
+
+section {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+a {
+  color: #b30059;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ====== HEADER & NAVIGATION ====== */
+header {
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px;
+  list-style: none;
+  gap: 15px;
+}
+
+nav ul li a {
+  padding: 8px 16px;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #ffe0f0;
+}
+
+/* ====== HERO SECTION ====== */
+#hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffe0f0;
+  text-align: center;
+  padding: 20px;
+}
+
+#hero h1 {
+  font-size: 2.8em;
+  color: #b30059;
+  margin-bottom: 10px;
+}
+
+#hero p {
+  font-size: 1.2em;
+  color: #55002b;
+}
+
+.btn {
+  margin-top: 20px;
+  padding: 12px 20px;
+  background-color: #b30059;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #99004d;
+}
+
+/* ====== LIST SECTIONS (SKILLS, INTERESTS) ====== */
+ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
+/* ====== PROJECTS ====== */
+.project {
+  background-color: #fff;
+  border-left: 4px solid #b30059;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* ====== EDUCATION SECTION ====== */
+#education a {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: #b30059;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 20px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+#education a:hover {
+  background-color: #99004d;
+}
+
+/* ====== CONTACT FORM ====== */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+form input,
+form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-family: inherit;
+}
+
+form button {
+  width: fit-content;
+  padding: 10px 20px;
+  background-color: #b30059;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #99004d;
+}
+
+/* ====== FOOTER ====== */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #fce4ec;
+  color: #55002b;
+  font-size: 0.9em;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
